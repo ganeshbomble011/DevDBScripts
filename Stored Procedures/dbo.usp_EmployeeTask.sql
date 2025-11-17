@@ -6,8 +6,8 @@ CREATE   PROCEDURE [dbo].[usp_EmployeeTask]
     @TaskId INT,
     @Id INT = NULL,
     @Name VARCHAR(100) = NULL,
-    @eNAME VARCHAR(100) = NULL,
-	@sid INT =null
+    @eNAME VARCHAR(100) = NULL
+	
 AS
 BEGIN
     SET NOCOUNT ON;
