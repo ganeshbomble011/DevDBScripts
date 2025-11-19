@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[role]
+(
+[roleid] [int] NOT NULL IDENTITY(1, 1),
+[rolename] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[role] ADD CONSTRAINT [PK__role__CD994BF2A2BC3C2D] PRIMARY KEY CLUSTERED ([roleid]) ON [PRIMARY]
+GO
