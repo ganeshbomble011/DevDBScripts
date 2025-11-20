@@ -2,7 +2,8 @@ CREATE TABLE [dbo].[Users]
 (
 [Userid] [int] NOT NULL IDENTITY(1, 1),
 [username] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[roleid] [int] NULL
+[roleid] [int] NULL,
+[Mobnum] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Users] ADD CONSTRAINT [PK__Users__1797D02495525CE8] PRIMARY KEY CLUSTERED ([Userid]) ON [PRIMARY]
